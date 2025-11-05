@@ -100,6 +100,6 @@ def generate_text(model, seed_text, length=300, temperature=1.0):
     return generated
 
 # ----------------- Generate Sample Text -----------------
-seed = "upon the quiet night the moon"
+seed = "where there is a will there is a way"
 print("\nGenerated Poetry:\n")
 print(generate_text(model, seed, length=500, temperature=0.7))
